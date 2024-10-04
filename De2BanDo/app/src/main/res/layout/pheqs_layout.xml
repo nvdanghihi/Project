@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="2dp"
+        app:title="Baithi2"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_x="72dp"
+        android:layout_y="70dp"
+        android:text="PHE PHÁI QUÂN SỰ"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/listpheqs"
+        android:layout_width="335dp"
+        android:layout_height="297dp"
+        android:layout_x="40dp"
+        android:layout_y="163dp" />
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="151dp"
+        android:layout_y="505dp"
+        android:text="OK" />
+
+</AbsoluteLayout>

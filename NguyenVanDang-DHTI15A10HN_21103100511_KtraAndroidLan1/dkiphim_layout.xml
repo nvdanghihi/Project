@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Nút Tuổi + -->
+    <Button
+        android:id="@+id/btnAge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Tuổi +" />
+
+    <TextView
+        android:id="@+id/tieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký xem phim"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnAge1"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <!-- Họ và tên -->
+    <TextView
+        android:id="@+id/labelname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên"
+        android:layout_below="@id/tieude"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelname"
+        android:layout_marginTop="8dp"
+        android:hint="Điền vào đây" />
+
+    <!-- Giới tính -->
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:layout_below="@id/Name"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdonu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+
+        <RadioButton
+            android:id="@+id/rdokhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khác" />
+    </RadioGroup>
+
+    <!-- Tuổi -->
+    <TextView
+        android:id="@+id/showAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuổi: 0"
+        android:layout_below="@id/rgGender"
+        android:layout_centerHorizontal="true"
+        />
+    <!-- Nút Đăng Ký -->
+    <Button
+        android:id="@+id/btnDangki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:layout_below="@id/showAge"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/labelmovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phim"
+        android:layout_below="@id/btnDangki"
+        android:layout_alignParentStart="true"
+        />
+
+    <!-- ListView phim -->
+    <ListView
+        android:id="@+id/listmoive"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_below="@id/btnDangki"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút Tuổi - -->
+    <Button
+        android:id="@+id/btnAge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listmoive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Tuổi -" />
+
+</RelativeLayout>

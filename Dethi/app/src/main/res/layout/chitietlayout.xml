@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:src="@drawable/ic_launcher_background"
+        tools:srcCompat="@tools:sample/avatars[10]" />
+
+    <TextView
+        android:id="@+id/textViewTen"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Tên"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewSoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Số điện thoại"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đóng" />
+</LinearLayout>

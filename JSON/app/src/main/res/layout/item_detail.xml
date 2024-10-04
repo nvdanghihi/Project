@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/labelMahang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã hàng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMahang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelMahang"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/labelTenhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên hàng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewMahang"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTenhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelTenhang"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/labelChungloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chủng loại"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewTenhang"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewChungloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelChungloai"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/labelSoluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewChungloai"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewSoluong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelSoluong"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/labelXuatxu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xuất xứ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewSoluong"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewXuatxu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelXuatxu"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/imageViewFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewXuatxu"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        android:layout_below="@id/imageViewFlag"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonEdit"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@id/buttonEdit"
+        android:text="Xóa" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonEdit"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@id/buttonEdit"
+        android:text="Quay lại" />
+</RelativeLayout>

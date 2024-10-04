@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnthem"
+        android:layout_width="380dp"
+        android:layout_height="66dp"
+        android:layout_x="32dp"
+        android:text="Thêm"
+        android:textSize="30dp"
+        android:layout_y="36dp" />
+
+    <Button
+        android:id="@+id/btnreturn"
+        android:layout_width="378dp"
+        android:layout_height="69dp"
+        android:layout_x="233dp"
+        android:text="Return"
+        android:textSize="30dp"
+        android:layout_y="55dp" />
+
+    <ListView
+        android:id="@+id/listhanghoa"
+        android:layout_width="match_parent"
+        android:layout_height="407dp"
+        android:layout_x="11dp"
+        android:layout_y="224dp" />
+</LinearLayout>

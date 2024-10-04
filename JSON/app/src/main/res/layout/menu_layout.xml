@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnkho"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="Quản lý hàng hóa"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btnlhe"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:textSize="30dp"
+        android:text="Liên hệ quản lý"
+       />
+
+    <Button
+        android:id="@+id/btnweb"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:text="Xem trang web"/>
+
+    <Button
+        android:id="@+id/btnhdan"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:textSize="30dp"
+        android:text="Xem hướng dẫn" />
+
+    <Button
+        android:id="@+id/btndxuat"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:textSize="30dp"
+        android:text="Đăng xuất"/>
+
+</LinearLayout>

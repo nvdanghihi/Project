@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/labelMahang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã hàng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMahang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelMahang"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/labelTenhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên hàng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewMahang"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTenhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên hàng"
+        android:layout_below="@id/labelTenhang"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/labelChungloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chủng loại"
+        android:textSize="18sp"
+        android:layout_below="@id/editTextTenhang"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextChungloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chủng loại"
+        android:layout_below="@id/labelChungloai"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/labelSoluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:textSize="18sp"
+        android:layout_below="@id/editTextChungloai"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSoluong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng"
+        android:layout_below="@id/labelSoluong"
+        android:layout_marginTop="8dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/labelXuatxu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xuất xứ"
+        android:textSize="18sp"
+        android:layout_below="@id/editTextSoluong"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextXuatxu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Xuất xứ"
+        android:layout_below="@id/labelXuatxu"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:layout_below="@id/editTextXuatxu"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hủy"
+        android:layout_toEndOf="@id/buttonSave"
+        android:layout_alignTop="@id/buttonSave"
+        android:layout_marginStart="16dp"/>
+</RelativeLayout>

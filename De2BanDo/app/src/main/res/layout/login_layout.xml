@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="46dp"
+        android:layout_x="21dp"
+        android:layout_y="152dp"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_x="26dp"
+        android:layout_y="212dp"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="153dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập thông tin"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập thông tin"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:text="Login"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="297dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="2dp"
+        app:title="Baithi2"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="47dp"
+        android:layout_x="106dp"
+        android:layout_y="83dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Login Form" />
+
+</AbsoluteLayout>

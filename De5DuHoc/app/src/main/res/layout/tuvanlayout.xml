@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Baithi5"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TƯ VẤN DU HỌC"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="NGUYEN VONG TAI CHINH"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TU TUC" />
+
+        <RadioButton
+            android:id="@+id/rdo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOC BONG HOC PHI" />
+
+        <RadioButton
+            android:id="@+id/rdo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOC BONG SINH HOAT" />
+
+        <RadioButton
+            android:id="@+id/rdo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOC BONG TOAN PHAN" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="HỖ TRỢ KHÁC"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/cbo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHUNG CHI NGON NGU" />
+
+    <CheckBox
+        android:id="@+id/cbo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRAO DOI TRAI NGHIEM VAN HOA" />
+
+    <Button
+        android:id="@+id/btnchoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT" />
+
+
+</LinearLayout>

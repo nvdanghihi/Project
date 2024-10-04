@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMahang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã hàng" />
+
+    <EditText
+        android:id="@+id/editTextTenhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên hàng" />
+
+    <EditText
+        android:id="@+id/editTextChungloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chủng loại" />
+
+    <EditText
+        android:id="@+id/editTextSoluong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng" />
+
+    <EditText
+        android:id="@+id/editTextXuatxu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Xuất xứ" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+
+</LinearLayout>

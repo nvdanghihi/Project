@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:text="NGUYỆN VỌNG TÀI CHÍNH" />
+
+    <TextView
+        android:id="@+id/shownv"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:textAlignment="center"
+        android:hint="Nguyện vọng đã chọn"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="HỖ TRỢ KHÁC"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/showht1"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:hint="Hỗ trợ đã chọn" />
+
+    <TextView
+        android:id="@+id/showht2"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnthoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Baithi2"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="241dp"
+        android:layout_height="51dp"
+        android:layout_x="79dp"
+        android:layout_y="80dp"
+        android:text="CÀI ĐẶT BẢN ĐỒ"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_x="111dp"
+        android:layout_y="137dp"
+        android:text="LOẠI BẢN ĐỒ"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="201dp">
+
+        <RadioButton
+            android:id="@+id/rdocn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cao nguyên" />
+
+        <RadioButton
+            android:id="@+id/rdohd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hải đảo" />
+
+        <RadioButton
+            android:id="@+id/rdodb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đồng bằng" />
+
+        <RadioButton
+            android:id="@+id/rdobb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bờ biển" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="156dp"
+        android:layout_height="40dp"
+        android:layout_x="113dp"
+        android:layout_y="397dp"
+        android:text="Thuộc tính"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/cbo1"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="478dp"
+        android:text="Mở bản đồ" />
+
+    <CheckBox
+        android:id="@+id/cbo2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="550dp"
+        android:text="Xóa sương mù" />
+
+    <Button
+        android:id="@+id/btnchoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="624dp"
+        android:text="Choose" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="626dp"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="627dp"
+        android:text="Next" />
+</AbsoluteLayout>

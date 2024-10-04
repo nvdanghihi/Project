@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOẠI PHÒNG"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/showtyperoom"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="Type room"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="DỊCH VỤ" />
+
+    <TextView
+        android:id="@+id/showservice1"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:hint="Service"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/showservice2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnthoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+</LinearLayout>

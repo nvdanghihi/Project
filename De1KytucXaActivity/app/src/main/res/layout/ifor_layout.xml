@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="21dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="219dp"
+        android:layout_y="22dp"
+        android:text="Show" />
+
+    <ListView
+        android:id="@+id/listinfor"
+        android:layout_width="348dp"
+        android:layout_height="341dp"
+        android:layout_x="36dp"
+        android:layout_y="98dp" />
+</AbsoluteLayout>
